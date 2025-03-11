@@ -1,5 +1,5 @@
 (?# URLs)
-(?i)[.·,:;*]*\s*([c<]\s*[o0@]*\s*[m]|g\s*g|[c<][o0@]\s*[.·,:;*]*\s*[uv][k])
+(?i)[.·,:;*]*\s*([c<]\s*[o0@]*\s*[m]|g\s*g|[c<]\s*[o0@]\s*[.·,:;*]*\s*[uv]\s*[k])
 
 (?# Trades)
 (?i)(buy(ing|er)?|sell(ing|er)?|looking|wtb|wts|need|pay(ing)?\s*well)\s*(for)*\s*(a)*\s*(\d)*\s*(good\s*items|rares|valuable|high.(tier|value)|(tumeken'?s?)(shadow)*|shadow|ely|void|t(wisted\s)?bow|bonds?)
