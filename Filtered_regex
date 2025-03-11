@@ -2,14 +2,22 @@
 (?i)[.·,:;*]*\s*([c<]\s*[o0@]*\s*[m]|g\s*g|[c<][o0@]\s*[.·,:;*]*\s*[uv][k])
 
 (?# Trades)
-(?i)(buy(ing|er)?|sell(ing|er)?|looking|wtb|wts|need|pay(ing)?\s*well)\s*(for)*\s*(a)*\s*(good\s*items|rares|valuable|high.(tier|value)|tumeken|shadow|ely|void|t(wisted\s)?bow)
-(?i)(good\s*items?|rares|valuable|high.(tier|value)|tumeken|shadow|ely|void|t(wisted\s)?bow),*\s*(serious)*\s*(.\..[kmb],?)*\s*(who'?s?)*\s*(buy(er|ing)?|sell(er|ing)?|quick\s*trade)
+(?i)(buy(ing|er)?|sell(ing|er)?|looking|wtb|wts|need|pay(ing)?\s*well)\s*(for)*\s*(a)*\s*(\d)*\s*(good\s*items|rares|valuable|high.(tier|value)|(tumeken'?s?)(shadow)*|shadow|ely|void|t(wisted\s)?bow|bonds?)
+(?i)(good\s*items?|rares|valuable|high.(tier|value)|(tumeken'?s?)(shadow)*|shadow|ely|void|t(wisted\s)?bow|bonds?),*\s*(serious)*\s*(.\..[kmb],?)*\s*(who'?s?)*\s*(buy(er|ing)?|sell(er|ing)?|quick\s*trade)
+
+(?# Begging)
+(?i)(need|accepting|pl(ea)?[sz]e?)\s*(some)?\s*(donations|g(p|old)|bonds?|(\d)[kmb](il)?|money)
+(?i)c(an|ould)?\s*((any|some)one)?\s*(spare|help|afford)\s*(to)?\s*(give)?\s*(me)?\s*(money|g(p|old)|(\d)*[kmb](il)?)
+(?i)help\s*(a|the)\s*poor\s*new\s*(guy|girl|player|me)
 
 (?# Giveaways/Events)
 (?i)watch.*(drop\s*party|celebration).*(search\s*y(ou)?t(ube)?)
 
 (?# Gambling)
-(?i)win easily.*[\d][kmb]
+(?i)((win|dail[y¥])\s*(easily|amazing)\s*(bets)*(happening)*|verified\s*(h.?[oq0].?s.?t.?)|play\s*winning|secure.payment|h[oq0]ttest.events?).*[\d][kmb]
+(?i)\[.*]\s*(.?w.?[oqi].?n.?(s.)?|.?l.?[oq].?s.?(t|es?).?)\s*((\d)*[kmb])*\s*(\((\d)(.\d)?.\))*\s*\[roll(s|ed)?:?\s*[\d]*]
+(?i).*[li]s\s*play[li]ng.\s*(\[(h[li]gh|l[oq0]w)])*.*\[for.\s*(\d)+[kmb]\s*]
 
 (?# Miscellaneous)
 (?i)(warning|beware)*\s*(\[.*])?\s*((will)*\s*(try)*\s*(to)*\s*send\s*you\s*(a\s+)*virus|is\s*a\s*(known)*\s*(hacker|lurer)|(of|saw\s*you)*\s*scam(mers|\s*you)*)
+(?i)one\s*message\s*foundation
