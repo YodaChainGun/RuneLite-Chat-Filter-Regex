@@ -3,7 +3,7 @@
 
 (?# Trades)
 (?i)(buy(ing|er)?|sell(ing|er)?|looking|wtb|wts|need|pay(ing)?\s*well)\s*(for)*\s*(a)*\s*(good\s*items|rares|valuable|high.(tier|value)|tumeken|shadow|ely|void|t(wisted\s)?bow)
-(?i)(good\s*items?|rares|valuable|high.(tier|value)|tumeken|shadow|ely|void|t(wisted\s)?bow),*\s*(serious)*(who'?s)*(.\..[kmb],?)*\s*(buy(er|ing)?|sell(er|ing)?|quick\s*trade)
+(?i)(good\s*items?|rares|valuable|high.(tier|value)|tumeken|shadow|ely|void|t(wisted\s)?bow),*\s*(serious)*\s*(.\..[kmb],?)*\s*(who'?s?)*\s*(buy(er|ing)?|sell(er|ing)?|quick\s*trade)
 
 (?# Giveaways/Events)
 (?i)watch.*(drop\s*party|celebration).*(search\s*y(ou)?t(ube)?)
